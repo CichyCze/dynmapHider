@@ -1,0 +1,7 @@
+# Whether or not, if EssentialsX plugin is present, to hide players with EssentialsX vanish on dynmap.
+# Default: true
+hideOnEssentialsVanish: true
+
+# Whether or not to hide players with spectator gamemode on dynmap.
+# Default: true
+hideOnGameModeSpectator: true

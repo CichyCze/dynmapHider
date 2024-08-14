@@ -1,0 +1,22 @@
+main: eu.cichycze.dynmapHider.Main
+
+name: ${project.name}
+description: A simple plugin that hides you from dynmap during spectator gamemode or, if present, EssentialsX vanish.
+version: ${project.version}
+author: CichyCze
+website: ${project.url}
+
+api-version: 1.10
+
+depend: [dynmap]
+
+commands:
+  dynmaphider:
+    description: Shows the list of available commands.
+    usage: "Usage: /<command>"
+
+permissions:
+  dynmaphider.reload:
+    description: Allows you to use the "/dynmaphider reload" command.
+  dynmaphider.updatecheck:
+    description: Sends you a message when there's a new version of the plugin available.
